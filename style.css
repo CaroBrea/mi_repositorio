@@ -1,0 +1,81 @@
+body {
+  background: #141414;
+  font-family: Netflix sans;
+}
+
+.entero span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+  font-size: 2.5em;
+  color: white;
+  font-weight: lighter;
+  font-family: netflix size;
+}
+
+.cartel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 2em;
+  width:8em;
+  height:16em;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.box img {
+  display: block;
+  width: auto;
+  height: 65%;
+  border: solid #333;
+}
+
+.box span {
+  font-family: netflix sans;
+  margin: 1em;
+  color: grey;
+  font-size: 1.2em;
+}
+
+.box:hover span {
+  color: #fff;
+}
+
+.box:hover img {
+  border: .25em solid white 
+ }
+
+.box#marcos {
+  text-transform: uppercase;
+}
+
+.entero button {
+ background: #141414;
+ color: grey;
+ border: 1px solid grey;
+ font-size: 1em;
+ padding: .5em 1.5em;
+ transition: all .25s;
+ text-transform: uppercase;
+ letter-spacing: .25em;
+ margin: .25em .25em .25em 35em; 
+}
+
+.entero button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
